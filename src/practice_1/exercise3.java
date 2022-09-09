@@ -1,4 +1,4 @@
-package practice_1;
+package practice_1.exercise3;
 
 import java.lang.reflect.Array;
 import java.util.Random;
@@ -9,7 +9,7 @@ import java.util.Random;
 циклов for, while, do while, результат выводится на экран.
 */
 
-public class ex3 {
+public class exercise3 {
     public static void main(String[] args) {
         int[] array = new int[10];
         fillingArray(array);
@@ -18,12 +18,12 @@ public class ex3 {
         SumArrayDoWhile(array);
     }
 
-    public static void fillingArray(int[] array){
+    public static void fillingArray(int[] array) {
+        Random rand = new Random();
         for (int i = 0; i < array.length; i++) {
-            Random random = new Random();
-            int rand_num = random.nextInt(101);
-            array[i] = rand_num;
+            array[i] = rand.nextInt(100);
         }
+
         System.out.print("Defined array (integer 1 to 100): ");
         for (int j : array) {
             System.out.print(j + " ");
