@@ -1,4 +1,4 @@
-package practice_1.exercise3;
+package practice_1;
 
 import java.lang.reflect.Array;
 import java.util.Random;

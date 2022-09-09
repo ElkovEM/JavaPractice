@@ -1,4 +1,4 @@
-package practice_1.exercise4;
+package practice_1;
 
 /*
 Написать программу, в результате которой выводятся
@@ -10,5 +10,4 @@ public class exercise4 {
         for (int i = 0; i < args.length; i++)
             System.out.println("Argument = " + args[i]);
         }
-    }
 }
